@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Ashish</h1>
 <h3 align="center">Hey there, Welcome!  I'm Ashish Rai, 📱Flutter Developer from India🇮🇳.</h3>
-<img align="right" alt="Coding" width="280" height="350" src="https://media2.giphy.com/media/Su9CRIsFs3tsjFVbVX/giphy.gif?cid=6c09b9528xzc6ln1s29k092mwf082gekefgn2lotfcnqogpn&ep=v1_stickers_related&rid=giphy.gif&ct=s">
+<img align="right" alt="Coding" width="280" height="200" src="https://media2.giphy.com/media/Su9CRIsFs3tsjFVbVX/giphy.gif?cid=6c09b9528xzc6ln1s29k092mwf082gekefgn2lotfcnqogpn&ep=v1_stickers_related&rid=giphy.gif&ct=s">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rai-ms&label=Profile%20views&color=0e75b6&style=flat" alt="rai-ms" /> </p>
 
 - 🌱 Currently learning **Flutter**
