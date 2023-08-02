@@ -7,7 +7,7 @@
 
 - 🌱 Currently learning **Flutter**
 
-- 🤝 I'm on track for learning more about **Flutter and Android**
+- 🤝 I'm on track for learning more about **Flutter, Android/iOS/Web Development**
 
 - 👨‍💻 All of my projects are available at [https://github.com/rai-ms](https://github.com/rai-ms)
 
