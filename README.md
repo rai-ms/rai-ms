@@ -1,4 +1,3 @@
-![MasterHead](https://user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
 # <h1 align="center"><img src="https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/PersonalGithubReadme/HandGreet.gif" width="35px" height="35px" />&nbsp; Hi, I'm Ashish</h1>
 <br>
 <h3 align="center">Hey there, Welcome!  I'm Ashish Rai, 📱Flutter Developer from India🇮🇳.</h3>
