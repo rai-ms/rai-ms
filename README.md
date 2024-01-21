@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Flutter and DSA**
 
-- 📫 How to reach me **ashish.rai@appinventiv.com**
+- 📫 How to reach me **ashishraimse@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
