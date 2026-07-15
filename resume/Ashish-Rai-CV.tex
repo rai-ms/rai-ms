@@ -1,0 +1,199 @@
+\documentclass[10pt, letterpaper]{article}
+
+% --- Packages ---
+\usepackage[ignoreheadfoot, top=2cm, bottom=2cm, left=2cm, right=2cm, footskip=1.0cm]{geometry}
+\usepackage{titlesec, tabularx, array, enumitem, fontawesome5, amsmath}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 79, 144}
+\usepackage[
+    pdftitle={Ashish Rai's CV},
+    pdfauthor={Ashish Rai},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc, bookmark, lastpage, changepage, paracol, ifthen, needspace, iftex}
+
+% ATS-friendly
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+% --- Formatting ---
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0cm}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.2cm}{0.1cm}
+
+\renewcommand\labelitemi{$\circ$}
+\newenvironment{highlights}{\begin{itemize}[topsep=0.10cm, parsep=0.10cm, partopsep=0pt, itemsep=0pt, leftmargin=0.5cm]}{\end{itemize}}
+
+\newenvironment{onecolentry}{\begin{adjustwidth}{0.2cm}{0.2cm}}{\end{adjustwidth}}
+\newenvironment{twocolentry}[2][]{
+  \onecolentry
+  \def\secondColumn{#2}
+  \setcolumnwidth{\fill, 4.5cm}
+  \begin{paracol}{2}
+}{
+  \switchcolumn \raggedleft \secondColumn
+  \end{paracol}
+  \endonecolentry
+}
+
+\newenvironment{header}{\setlength{\topsep}{0pt}\par\kern\topsep\centering}{\par\kern\topsep}
+
+\begin{document}
+
+% --- Header ---
+\begin{header}
+    \textbf{\fontsize{24pt}{24pt}\selectfont Ashish Rai} \\[0.2cm]
+
+    \normalsize
+    \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Noida, UP, India}%
+    \kern 0.5cm
+    \mbox{\href{mailto:ashishraimse@gmail.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}ashishraimse@gmail.com}}%
+    \kern 0.5cm
+    \mbox{{\color{black}\footnotesize\faPhone*}\hspace*{0.13cm}+91 7310131004}%
+    \kern 0.5cm
+    \mbox{\href{https://www.linkedin.com/in/rai-ms}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}LinkedIn}}%
+    \kern 0.5cm
+    \mbox{\href{https://github.com/rai-ms}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}GitHub}}%
+    \kern 0.5cm
+    \mbox{\href{https://rx-project-75f17.web.app/}{\color{black}{\footnotesize\faGlobe}\hspace*{0.13cm}Portfolio}}%
+\end{header}
+
+
+% --- Summary ---
+\section{Summary}
+\begin{onecolentry}
+Mobile App Developer with 3 years of experience building scalable, cross-platform applications with React Native and Flutter. Currently focused on React Native (TypeScript, Zustand, React Query, Reanimated, Expo), with a strong Flutter/Dart foundation. Proficient in Firebase, REST APIs, Git, native module/platform channels, and multiple state-management approaches (BLoC, Cubit, Provider, GetX, Redux). Skilled in responsive UI, third-party integrations, internationalization, and Clean Architecture across iOS and Android.
+\end{onecolentry}
+
+% --- Skills ---
+\section{Skills}
+\begin{onecolentry}
+React Native, TypeScript, JavaScript, Zustand, Redux, React Query, React Navigation, Reanimated, Expo, Flutter, Dart, Firebase (Auth, Firestore, Analytics), REST APIs, GraphQL, BLoC, Cubit, Provider, GetX, MVVM, Clean Architecture, Push Notifications, Azure AD SSO, Internationalization (i18n), Jest, Git, GitHub, GitLab, GoRouter, Branch IO, Adjust, Tap Payments, Dynatrace
+\end{onecolentry}
+
+% --- Experience ---
+\section{Experience}
+\begin{twocolentry}{\textit{June 2023 – Present}}
+\textbf{Software Developer (React Native \& Flutter)} \\
+Appinventiv, Noida Sector 58
+\end{twocolentry}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Built two production \textbf{React Native} apps (Bloom Employee \& Partner) end-to-end for iOS and Android — TypeScript, Expo, Zustand, React Query, Reanimated.
+        \item Integrated Azure AD SSO, push notifications, full internationalization, secure/offline storage, and Dynatrace monitoring; structured code with atomic design and typed APIs.
+        \item Earlier delivered cross-platform \textbf{Flutter} apps: Virgin Connect Roam, DwellSpring, Zito-Media, Jarir, Localization SDK.
+        \item Implemented state management (BLoC, Cubit, Provider), API integration, payment gateways, and platform channels.
+        \item Built localization logic with auto language/direction, OTA updates, and caching; integrated Firebase, Branch IO, Adjust, Tap Pay, Dynatrace, GTM.
+    \end{highlights}
+\end{onecolentry}
+
+
+% --- Projects ---
+\section{Projects}
+
+\begin{twocolentry}{}
+\textbf{Bloom Employee App – Enterprise Mobile App (React Native)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+    \item Built an enterprise employee app from scratch in React Native 0.83 + Expo with TypeScript.
+    \item Global state via Zustand and a typed data layer with React Query + Axios for reliable server sync.
+    \item Integrated Azure AD SSO (expo-auth-session) and a vendor-agnostic push-notification layer (cold-start on tap).
+    \item Delivered full internationalization (i18next + Intl polyfills) and theme-driven UI animated with Reanimated 4.
+    \item Implemented offline storage (MMKV), secure token storage (Keychain), and Dynatrace instrumentation; atomic-design architecture with Jest.
+\end{highlights}
+\end{onecolentry}
+
+\begin{twocolentry}{}
+\textbf{Bloom Partner App – Companion Mobile App (React Native)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+    \item Built the companion Partner app in React Native, sharing the design system and architecture with the Employee app.
+    \item Implemented role-based flows, REST API integration, push notifications, and internationalization.
+    \item Reused typed state (Zustand/React Query) and offline caching patterns for consistent performance across both apps.
+\end{highlights}
+\end{onecolentry}
+
+\begin{twocolentry}{}
+\textbf{PVR Cinemas – Movie Booking App (In Progress)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+    \item Leading the migration of the existing native PVR Cinemas app to Flutter from scratch.
+    \item Designing app architecture using BLoC and Clean Architecture patterns to ensure scalability and modularity.
+    \item Implementing ticket booking, seat selection, and payments with real-time synchronization.
+    \item Developing dynamic UI components, caching, and app-wide theming for performance optimization.
+\end{highlights}
+\end{onecolentry}
+
+\begin{twocolentry}{}
+\textbf{Virgin Connect Roam}
+\href{https://apps.apple.com/us/app/virgin-connect-roam/id6475600401}{(iOS)} \,|\,
+\href{https://play.google.com/store/apps/details?id=one.beyond.esim}{(Android)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+    \item Developed seamless mobile/web experience for global eSIM (200+ countries).
+    \item Optimized UI workflows and caching to boost performance.
+    \item Integrated analytics, messaging, and scalability services.
+\end{highlights}
+\end{onecolentry}
+
+\begin{twocolentry}{}
+\textbf{Jarir Bookstore – E-Commerce Platform}
+\href{https://apps.apple.com/ao/app/jarir-bookstore/id535777677}{(iOS)} \,|\,
+\href{https://play.google.com/store/apps/details?id=com.jarirbookstore.JBMarketingApp&hl=en_IN}{(Android)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+    \item Enhanced UX/UI for Middle East e-commerce platform.
+    \item Integrated secure payment gateways and recommendation logic.
+    \item Contributed to localization features and performance tuning.
+\end{highlights}
+\end{onecolentry}
+
+
+% --- Education ---
+\section{Education}
+
+\begin{twocolentry}{\textit{2019 – 2023}}
+\textbf{B.Tech in Computer Science} \\
+Sanskar College of Engineering and Technology, Ghaziabad, UP
+\end{twocolentry}
+
+\begin{twocolentry}{\textit{2017 – 2019}}
+\textbf{Senior Secondary (Class 12)} \\
+Gangotri Devi Inter College, Sikanderpur, Ballia, UP
+\end{twocolentry}
+
+\begin{twocolentry}{\textit{2015 – 2017}}
+\textbf{Secondary (Class 10)} \\
+Gangotri Devi Inter College, Sikanderpur, Ballia, UP
+\end{twocolentry}
+
+
+% --- Extracurricular ---
+\section{Extra-Curricular}
+\begin{onecolentry}
+\begin{highlights}
+    \item Conducted Flutter training sessions at Appinventiv.
+    \item Awarded \href{https://www.linkedin.com/posts/ashish-rai-0a4983207_appinventiv-flutterdeveloper-teamwo-activity-7288898325699866624-NAKb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADSluLwBBibsxF-PRP1IjH2pAnTAcoxdwYg}{\textbf{“Budding Star”}} for outstanding performance.
+    \item Earned a 5-star Gold Badge in C++ on \href{https://www.hackerrank.com/profile/ashishraimse}{HackerRank}.
+    \item Participated in Online Hackathon Festival (OHF) Season 3 by IITs/NITs.
+\end{highlights}
+\end{onecolentry}
+
+\end{document}
