@@ -1,0 +1,15 @@
+{
+  "name": "email-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node auto-scrape.mjs",
+    "scrape:search": "node auto-scrape.mjs --search",
+    "naukri:login": "node naukri-refresher/login.mjs",
+    "naukri:refresh": "node naukri-refresher/refresh.mjs",
+    "naukri:test": "node --test naukri-refresher/lib/*.test.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}

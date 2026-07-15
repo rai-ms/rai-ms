@@ -1,0 +1,8 @@
+{
+  "profileUrl": "https://www.naukri.com/mnjuser/profile",
+  "resumePath": "/absolute/path/to/your-resume.pdf",
+  "activeStartHour": 9,
+  "activeEndHour": 21,
+  "jitterMinutes": 20,
+  "skipProbability": 0.3
+}

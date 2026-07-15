@@ -1,2 +1,4 @@
 .DS_Store
 *.log
+naukri-refresher/session/
+naukri-refresher/config.json
