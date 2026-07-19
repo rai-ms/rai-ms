@@ -8,33 +8,130 @@
   <div class="container">
     <header>
       <h1>Email Scraper</h1>
-      <p class="subtitle">Scrape emails from this page</p>
+      <div class="tabs">
+        <button class="tab active" data-tab="manual">Manual</button>
+        <button class="tab" data-tab="auto">Auto Scrape</button>
+      </div>
     </header>
 
-    <section class="ignore-section">
-      <label class="ignore-label">Ignore list (exclude from scrape)</label>
-      <div class="ignore-add">
-        <input type="text" id="ignoreInput" placeholder="email@example.com">
-        <button id="ignoreAddBtn" class="btn btn-secondary">Add</button>
-      </div>
-      <ul id="ignoreList" class="ignore-list"></ul>
-    </section>
-
-    <section class="actions">
-      <button id="scrapeBtn" class="btn btn-primary">Find emails on this page</button>
-    </section>
-
-    <section class="results" id="resultsSection" hidden>
-      <div class="results-header">
-        <span id="resultsCount">0 emails</span>
-        <div class="results-buttons">
-          <button id="addToCollectionBtn" class="btn btn-secondary">Add to collection</button>
-          <button id="exportPageBtn" class="btn btn-secondary">Export this page</button>
+    <!-- ═══ MANUAL TAB ═══ -->
+    <div id="manualTab" class="tab-content active">
+      <section class="ignore-section">
+        <label class="ignore-label">Ignore list (exclude from scrape)</label>
+        <div class="ignore-add">
+          <input type="text" id="ignoreInput" placeholder="email@example.com">
+          <button id="ignoreAddBtn" class="btn btn-secondary">Add</button>
         </div>
-      </div>
-      <div id="resultsList" class="results-list"></div>
-    </section>
+        <ul id="ignoreList" class="ignore-list"></ul>
+      </section>
 
+      <section class="actions">
+        <button id="scrapeBtn" class="btn btn-primary">Find emails on this page</button>
+      </section>
+
+      <section class="results" id="resultsSection" hidden>
+        <div class="results-header">
+          <span id="resultsCount">0 emails</span>
+          <div class="results-buttons">
+            <button type="button" id="addToCollectionBtn" class="btn btn-secondary">Add to collection</button>
+            <button id="exportPageBtn" class="btn btn-secondary">Export this page</button>
+          </div>
+        </div>
+        <div id="resultsList" class="results-list"></div>
+      </section>
+
+      <section id="emptyState" class="empty-state">
+        <p>No emails found on this page.</p>
+      </section>
+
+      <section id="errorState" class="error-state" hidden>
+        <p id="errorMessage"></p>
+      </section>
+    </div>
+
+    <!-- ═══ AUTO SCRAPE TAB ═══ -->
+    <div id="autoTab" class="tab-content" hidden>
+      <div class="auto-mode-switch">
+        <button class="mode-btn active" data-mode="urls">URLs</button>
+        <button class="mode-btn" data-mode="search">Search</button>
+      </div>
+
+      <div id="urlsMode" class="auto-input-section">
+        <label class="auto-label">Paste company websites (one per line)</label>
+        <textarea id="urlsInput" rows="5" placeholder="https://company1.com&#10;https://company2.com&#10;https://company3.com"></textarea>
+      </div>
+
+      <div id="searchMode" class="auto-input-section" hidden>
+        <label class="auto-label">Target Regions (click to add queries)</label>
+        <div class="region-chips" id="regionChips">
+          <button class="chip" data-region="uae">UAE</button>
+          <button class="chip" data-region="saudi">Saudi Arabia</button>
+          <button class="chip" data-region="singapore">Singapore</button>
+          <button class="chip" data-region="usa">USA</button>
+          <button class="chip" data-region="uk">UK</button>
+          <button class="chip" data-region="canada">Canada</button>
+          <button class="chip" data-region="australia">Australia</button>
+          <button class="chip" data-region="germany">Germany</button>
+          <button class="chip" data-region="qatar">Qatar</button>
+          <button class="chip" data-region="netherlands">Netherlands</button>
+          <button class="chip" data-region="ireland">Ireland</button>
+          <button class="chip" data-region="israel">Israel</button>
+        </div>
+
+        <label class="auto-label" style="margin-top:8px">Industry Focus</label>
+        <div class="region-chips" id="industryChips">
+          <button class="chip chip-industry" data-industry="tech">IT / SaaS</button>
+          <button class="chip chip-industry" data-industry="fintech">Fintech</button>
+          <button class="chip chip-industry" data-industry="ecommerce">E-Commerce</button>
+          <button class="chip chip-industry" data-industry="healthcare">Healthcare</button>
+          <button class="chip chip-industry" data-industry="consulting">Consulting</button>
+          <button class="chip chip-industry" data-industry="manufacturing">Manufacturing</button>
+        </div>
+
+        <div style="display:flex;gap:6px;margin-top:8px">
+          <button id="generateQueriesBtn" class="btn btn-accent" style="flex:1">Generate Smart Queries</button>
+          <button id="clearQueriesBtn" class="btn btn-outline" style="flex-shrink:0;padding:6px 12px;font-size:12px">Clear</button>
+        </div>
+
+        <label class="auto-label" style="margin-top:10px">Search queries (auto-generated or type your own)</label>
+        <textarea id="queriesInput" rows="5" placeholder="Click regions + industries above, then 'Generate Smart Queries'&#10;Or type your own queries here"></textarea>
+        <p class="auto-hint">Searches DuckDuckGo, finds company sites, then scrapes them.</p>
+      </div>
+
+      <div class="auto-options">
+        <label class="auto-option">
+          <input type="checkbox" id="crawlSubpages" checked>
+          Crawl subpages (/contact, /about, /team, /careers)
+        </label>
+      </div>
+
+      <button id="autoScrapeBtn" class="btn btn-primary">Start Auto Scrape</button>
+      <button id="autoStopBtn" class="btn btn-danger" hidden>Stop</button>
+
+      <div id="autoProgress" class="auto-progress" hidden>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-stats">
+          <span id="progressText">0 / 0 pages</span>
+          <span id="progressFound">0 emails</span>
+        </div>
+        <div id="progressLog" class="progress-log"></div>
+      </div>
+
+      <div id="autoResults" hidden>
+        <div class="results-header">
+          <span id="autoResultsCount">0 emails found</span>
+          <div class="results-buttons">
+            <button id="autoAddBtn" class="btn btn-secondary">Add to collection</button>
+            <button id="autoExportBtn" class="btn btn-secondary">Export CSV</button>
+          </div>
+        </div>
+        <div id="autoResultsList" class="results-list"></div>
+      </div>
+    </div>
+
+    <!-- ═══ COLLECTION (shared) ═══ -->
     <section class="collection-section">
       <div class="collection-header">
         <span id="collectionCount">0 emails in collection</span>
@@ -44,14 +141,6 @@
         </div>
       </div>
       <p id="addFeedback" class="add-feedback" hidden></p>
-    </section>
-
-    <section id="emptyState" class="empty-state">
-      <p>No emails found on this page.</p>
-    </section>
-
-    <section id="errorState" class="error-state" hidden>
-      <p id="errorMessage"></p>
     </section>
   </div>
   <script src="popup.js"></script>

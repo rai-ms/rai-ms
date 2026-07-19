@@ -2,3 +2,16 @@
 *.log
 naukri-refresher/session/
 naukri-refresher/config.json
+
+# dependencies
+node_modules/
+
+# personal / sensitive — never commit to this public repo
+Archive.zip
+ITR-filing-plan.md
+RenderCV_*.pdf
+output/
+urls.txt
+queries.txt
+ignore.txt
+lastwork

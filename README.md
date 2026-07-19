@@ -1,45 +1,104 @@
-# HRNexTo Lead Finder – Chrome Extension
+# Email Scraper
 
-Chrome extension to **find visible emails** on the current page and flag contacts that look like **HR or senior personnel**, so you can reach out about [HRNexTo](https://hrnexto.com) (HRMS platform).
-
-It only extracts information that is **already visible** on the page (e.g. team, about, or contact pages). It does not access private data or log into any service.
-
----
-
-## Install (Chrome)
-
-1. Open Chrome and go to `chrome://extensions/`.
-2. Turn **Developer mode** on (top right).
-3. Click **Load unpacked** and select this folder:  
-   `.../chrome-ext`
-4. The extension icon will appear in the toolbar.
+Two tools in one repo:
+1. **Chrome Extension** — manual, page-by-page scraping via browser popup
+2. **Auto Scraper** — fully automated, headless Puppeteer script (just run one command)
 
 ---
 
-## How to use
+## Auto Scraper (Automated)
 
-1. Open a webpage that shows contact/team info (e.g. company “Team”, “About”, “Contact”, or “Leadership” page).
-2. Click the extension icon to open the popup.
-3. Click **“Find emails on this page”**.
-4. Review the list. Emails with nearby text suggesting HR/senior roles are marked **HR/Senior** and highlighted.
-5. Use **“Show only HR / Senior roles”** to filter.
-6. Click **“Export CSV”** to download a CSV (email, name, context, is_likely_hr_senior) for use in your outreach.
+### Setup (one time)
+
+```bash
+cd chrome-ext
+npm install
+```
+
+### Mode 1: Scrape from URL list
+
+1. Add company websites to `urls.txt` (one per line):
+   ```
+   https://www.infosys.com
+   https://www.wipro.com
+   https://www.tcs.com
+   ```
+
+2. Run:
+   ```bash
+   npm run scrape
+   ```
+
+3. Done. CSV saved to `output/emails-YYYY-MM-DD.csv`
+
+For each URL, it auto-crawls subpages: `/contact`, `/about`, `/team`, `/careers`, `/about-us`, `/contact-us`, `/people`, `/our-team`, `/leadership`
+
+### Mode 2: Search + Scrape
+
+1. Add search queries to `queries.txt` (one per line):
+   ```
+   HR manager contact email IT companies India
+   human resources head email startups Noida
+   ```
+
+2. Run:
+   ```bash
+   npm run scrape:search
+   ```
+
+   This searches DuckDuckGo for each query, collects result URLs, then scrapes each domain.
+
+### Mode 3: Pass URLs directly
+
+```bash
+node auto-scrape.mjs https://example.com https://other.com
+```
+
+### Ignore list
+
+Add emails to `ignore.txt` (one per line) to exclude them from results:
+```
+ashish.rai@appinventiv.com
+noreply@example.com
+```
+
+### Output
+
+CSV with columns: `email`, `type`, `source_urls`
+
+- **HR/Decision-Maker** — emails matching hr@, careers@, hiring@, talent@, ceo@, founder@, admin@, contact@, etc.
+- **General** — all other emails
+
+HR emails are sorted first in the output.
+
+### Config
+
+Edit the `CONFIG` object at the top of `auto-scrape.mjs` to change:
+- `subpages` — which subpages to crawl per domain
+- `delayBetweenPages` — delay between requests (default 2s)
+- `maxPagesPerDomain` — max pages per domain (default 10)
+- `maxSearchResults` — max URLs per search query (default 20)
+- `junkPatterns` — auto-skip junk emails (noreply, test, etc.)
+- `hrPatterns` — patterns to classify as HR/Decision-Maker
 
 ---
 
-## What it detects
+## Chrome Extension (Manual)
 
-- **Emails**: From `mailto:` links and from plain text on the page.
-- **HR/Senior hints**: Nearby text (e.g. headings, job titles) containing words like:  
-  HR, Human Resources, Director, VP, Head of, Manager, Recruitment, Talent, People Ops, CEO, etc.
+### Install
 
----
+1. Open Chrome → `chrome://extensions/`
+2. Turn **Developer mode** on (top right)
+3. Click **Load unpacked** and select the `chrome-ext` folder
+4. Pin the extension from the puzzle menu
 
-## Legal and responsible use
+### How to use
 
-- Use only on pages you are allowed to access. Do not bypass login or scrape behind auth.
-- Respect privacy and anti-spam laws (e.g. GDPR, CAN-SPAM, local rules). Only email people where you have a legitimate interest or consent, and always offer a clear way to opt out.
-- This tool only surfaces **publicly visible** contact info. You are responsible for how you store, use, and email that data.
+1. **Ignore list** — Add emails to exclude from results
+2. **Scrape this page** — Click extension → Find emails on this page
+3. **Add to collection** — Merge results into saved list (deduped)
+4. **Export** — Export this page or full collection as CSV
+5. **Clear** — Wipe the collection
 
 ---
 
@@ -47,32 +106,23 @@ It only extracts information that is **already visible** on the page (e.g. team,
 
 ```
 chrome-ext/
-├── manifest.json   # Extension manifest (Manifest V3)
-├── popup.html      # Popup UI
-├── popup.css       # Popup styles
-├── popup.js        # Popup logic + CSV export
-├── content.js      # Injected script: finds emails + HR/senior context
-└── README.md       # This file
+├── auto-scrape.mjs   # Automated Puppeteer scraper
+├── urls.txt           # Input: company URLs (one per line)
+├── queries.txt        # Input: search queries (for --search mode)
+├── ignore.txt         # Emails to exclude
+├── output/            # CSV output files
+├── package.json       # Node dependencies
+├── manifest.json      # Chrome extension manifest V3
+├── popup.html         # Extension popup UI
+├── popup.css          # Extension styles
+├── popup.js           # Extension logic
+├── content.js         # Extension content script
+├── background.js      # Extension background worker
+└── README.md          # This file
 ```
 
 ---
 
-## Optional: add icons
+## Legal / responsible use
 
-To set a custom icon, add PNGs under `icons/` (e.g. `icon16.png`, `icon32.png`, `icon48.png`) and in `manifest.json` set:
-
-```json
-"action": {
-  "default_popup": "popup.html",
-  "default_icon": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png"
-  }
-},
-"icons": {
-  "16": "icons/icon16.png",
-  "32": "icons/icon32.png",
-  "48": "icons/icon48.png"
-}
-```
+Use only on publicly accessible pages. Don't bypass login or scrape behind auth. Respect privacy and anti-spam laws (GDPR, CAN-SPAM). You are responsible for how you use the data.
