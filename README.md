@@ -4,10 +4,10 @@
 
 <div align="center">
 
-  [![Live AI Portfolio](https://img.shields.io/badge/⚡_Live_AI_Portfolio-ashish--ai--portfolio.web.app-1163FB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ashish-ai-portfolio.web.app)
+  [![Live AI Portfolio](https://img.shields.io/badge/Live_AI_Portfolio-ashish--ai--portfolio.web.app-1163FB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ashish-ai-portfolio.web.app)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish_Rai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-rai-0a4983207/)
   [![GitHub](https://img.shields.io/badge/GitHub-rai--ms-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rai-ms)
-  [![HackerRank](https://img.shields.io/badge/HackerRank-5★_Gold_Badge-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/ashishraimse?hr_r=1)
+  [![HackerRank](https://img.shields.io/badge/HackerRank-5_Star_Gold-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/ashishraimse?hr_r=1)
   [![Email](https://img.shields.io/badge/Email-ashishraimse%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashishraimse@gmail.com)
 
 </div>
@@ -158,8 +158,8 @@
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rai-ms&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Ashish's GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rai-ms&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages"/>
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=rai-ms&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Ashish's GitHub Stats"/>
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=rai-ms&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages"/>
 </div>
 
 <div align="center">
