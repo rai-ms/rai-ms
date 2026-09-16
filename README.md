@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36,44&height=230&section=header&text=Ashish%20Rai&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Engineer%20%7C%20Generative%20AI%20%26%20Autonomous%20Agentic%20Systems&descFontSize=19&descAlignY=58&descAlign=50" width="100%"/>
+  <img src="./assets/header-banner.svg" width="100%" alt="Ashish Rai - Header Banner"/>
 </div>
 
 <div align="center">
