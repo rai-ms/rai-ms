@@ -1,34 +1,117 @@
-![MasterHead](https://user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
-# <h1 align="center"><img src="https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/PersonalGithubReadme/HandGreet.gif" width="35px" height="35px" />&nbsp; Hi, I'm Ashish</h1>
-<br>
-<h3 align="center">Hey there, Welcome!  I'm Ashish Rai, 📱Flutter Developer from India🇮🇳.</h3>
-<img align="right" alt="Coding" width="280" height="300" src="https://media2.giphy.com/media/Su9CRIsFs3tsjFVbVX/giphy.gif?cid=6c09b9528xzc6ln1s29k092mwf082gekefgn2lotfcnqogpn&ep=v1_stickers_related&rid=giphy.gif&ct=s">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rai-ms&label=Profile%20views&color=0e75b6&style=flat" alt="rai-ms" /> </p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,24,36&height=220&section=header&text=Ashish%20Rai&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Scalable%20Systems%20%26%20Generative%20AI&descFontSize=20&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
-- 🌱 Currently learning **Flutter**
+<div align="center">
 
-- 🤝 I'm on track for learning more about **Flutter, Android/iOS/Web Development**
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-rai-0a4983207/)
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rai-ms)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ashish-ai-portfolio.web.app)
+  [![HackerRank](https://img.shields.io/badge/HackerRank-5★%20Gold-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/ashishraimse?hr_r=1)
+  [![Email](https://img.shields.io/badge/Email-ashishraimse%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashishraimse@gmail.com)
 
-- 👨‍💻 All of my projects are available at [https://github.com/rai-ms](https://github.com/rai-ms)
+</div>
 
-- 💬 Ask me about **Flutter and DSA**
+---
 
-- 📫 How to reach me **ashishraimse@gmail.com**
+### 👨‍💻 About Me
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/ashish-rai-0a4983207/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ashish-rai-0a4983207/" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/ashishraimse" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="https://www.codechef.com/users/ashishraimse" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/ashishraimse?hr_r=1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/ashishraimse?hr_r=1" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/ashishraimse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="https://codeforces.com/profile/ashishraimse" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/ashishraimse" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://auth.geeksforgeeks.org/user/ashishraimse" height="30" width="40" /></a>
-</p>
+Software Engineer with **3+ years of production experience** architecting high-scale cross-platform mobile ecosystems, intelligent multi-agent systems, and enterprise microservices.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+- 🏢 **Current Role:** Software Developer at **[Appinventiv](https://appinventiv.com)** (Noida Sector 58 / 135)
+- 🚀 **Production Scale:** Built & shipped enterprise applications serving millions across 200+ countries (*Bloom Multiverse, PVR Cinemas, Virgin Connect Roam, Jarir Bookstore*).
+- 🤖 **AI & Agentic Systems:** Architecting autonomous multi-agent DAG workflows (*LangGraph, CrewAI*), hybrid RAG pipelines (*Qdrant, pgvector, LlamaIndex*), and clinical document intelligence (*LayoutLM, PaddleOCR*).
+- 🏆 **Recognition:** Awarded **"Budding Star"** at Appinventiv; **5-Star Gold Badge** in Problem Solving & C++ on HackerRank.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rai-ms&show_icons=true&locale=en&layout=compact" alt="rai-ms" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rai-ms&show_icons=true&locale=en" alt="rai-ms" /></p>
+### 🛠️ Tech Stack & Tooling
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rai-ms&" alt="rai-ms" /></p>
+<table>
+  <tr>
+    <td align="center" width="25%"><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Mobile Engineering</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
+      <img src="https://img.shields.io/badge/BLoC-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Zustand-443e38?style=flat-square&logo=react&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=react-query&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Reanimated-7C3AED?style=flat-square&logo=react&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>AI & Agentic Systems</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LlamaIndex-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/vLLM-00A67E?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Vector DBs & Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white"/>
+      <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+      <img src="https://img.shields.io/badge/ChromaDB-FF69B4?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Cloud & DevOps</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Dynatrace-1496FF?style=flat-square&logo=dynatrace&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🚀 Key Production Systems & Highlights
+
+- 👥 **Bloom Multiverse (React Native 0.83 + Expo EAS):** Enterprise Super App built end-to-end with Azure AD SSO, MMKV, Dynatrace APM, offline caching, and multi-flavor release pipelines.
+- 🏥 **Clinical Document Intelligence & OCR:** End-to-end medical entity extraction pipeline using LayoutLM and PaddleOCR achieving **96.4% accuracy** and cutting manual claim adjudication by **75%**.
+- 🤖 **Enterprise Multi-Agent Platform:** Cyclical LangGraph state graphs with pgvector dense embeddings achieving **98% routing accuracy** with automated reflection and self-healing execution loops.
+- 🎬 **PVR Cinemas (Flutter):** High-concurrency ticket booking, seat reservation, real-time sync, and payment gateway integration.
+- 🌍 **Virgin Connect Roam (Flutter):** Global eSIM platform serving users across **200+ countries** with instant profile activation and 25% faster cold startup.
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rai-ms&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Ashish's GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rai-ms&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rai-ms&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+---
+
+<div align="center">
+  <sub>Designed & built with care by <strong><a href="https://github.com/rai-ms">Ashish Rai</a></strong></sub>
+</div>
