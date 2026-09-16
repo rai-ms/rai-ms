@@ -1,82 +1,175 @@
-![MasterHead](https://user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36,44&height=230&section=header&text=Ashish%20Rai&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Engineer%20%7C%20Generative%20AI%20%26%20Autonomous%20Agentic%20Systems&descFontSize=19&descAlignY=58&descAlign=50" width="100%"/>
+</div>
 
-# <h1 align="center"><img src="https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/PersonalGithubReadme/HandGreet.gif" width="35px" height="35px" />&nbsp; Hi, I'm Ashish</h1>
+<div align="center">
 
-<h3 align="center">Hey there, Welcome! I'm Ashish Rai, 🤖 Software Developer & AI Systems Engineer from India 🇮🇳</h3>
+  [![Live AI Portfolio](https://img.shields.io/badge/⚡_Live_AI_Portfolio-ashish--ai--portfolio.web.app-1163FB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ashish-ai-portfolio.web.app)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish_Rai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-rai-0a4983207/)
+  [![GitHub](https://img.shields.io/badge/GitHub-rai--ms-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rai-ms)
+  [![HackerRank](https://img.shields.io/badge/HackerRank-5★_Gold_Badge-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/ashishraimse?hr_r=1)
+  [![Email](https://img.shields.io/badge/Email-ashishraimse%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ashishraimse@gmail.com)
 
-<img align="right" alt="Coding" width="270" height="290" src="https://media2.giphy.com/media/Su9CRIsFs3tsjFVbVX/giphy.gif?cid=6c09b9528xzc6ln1s29k092mwf082gekefgn2lotfcnqogpn&ep=v1_stickers_related&rid=giphy.gif&ct=s">
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=rai-ms&label=Profile%20views&color=0e75b6&style=flat" alt="rai-ms" />
-  <a href="https://ashish-ai-portfolio.web.app"><img src="https://img.shields.io/badge/⚡_Live_AI_Portfolio-ashish--ai--portfolio.web.app-1163FB?style=flat&logo=google-chrome&logoColor=white" alt="Live Portfolio"/></a>
-</p>
-
-- 🏢 Software Developer at **[Appinventiv](https://appinventiv.com)** (Noida Sector 135) with **3+ years of production experience**
-- 🤖 **AI & Autonomous Agents (Core Focus):** Architecting multi-agent systems (**LangGraph, CrewAI, MCP**), Hybrid Neural RAG (**Qdrant, pgvector, LlamaIndex**), and Vision-Language Document Intelligence (**GPT-4o Vision, LayoutLM, PaddleOCR**)
-- ⚡ **Production Impact:** Built clinical extraction pipeline with **96.4% precision** (75% review time reduction) & multi-agent routing with **98% accuracy** (90% manual effort reduction)
-- 📱 **Mobile & Full-Stack:** Delivering high-concurrency enterprise applications in **React Native** (*Expo EAS, Zustand, React Query*) & **Flutter** (*BLoC, Clean Architecture*)
-- 🏆 **Honors:** Awarded **"Budding Star"** at Appinventiv; **HackerRank 5-Star Gold Badge** in Problem Solving & C++
-- 🌐 **Interactive Portfolio:** Test my live Google Gemini AI Copilot at [ashish-ai-portfolio.web.app](https://ashish-ai-portfolio.web.app)
-- 💬 **Ask me about:** Generative AI, LangGraph, Multi-Agent Workflows, Neural RAG, Flutter, React Native, and DSA
-- 📫 **How to reach me:** **ashishraimse@gmail.com**
+</div>
 
 <br/>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/ashish-rai-0a4983207/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-  <a href="https://ashish-ai-portfolio.web.app" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/googlechrome.svg" alt="Portfolio" height="30" width="40" /></a>
-  <a href="https://www.hackerrank.com/ashishraimse?hr_r=1" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/ashishraimse" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" height="30" width="40" /></a>
-  <a href="https://codeforces.com/profile/ashishraimse" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="30" width="40" /></a>
-  <a href="https://www.codechef.com/users/ashishraimse" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="CodeChef" height="30" width="40" /></a>
-</p>
+<div align="center">
+  <h3>⚡ Software Engineer specializing in <strong>Generative AI Architectures, Autonomous Multi-Agent Systems & Scalable Production Engineering</strong>.</h3>
+  <p>Currently engineering enterprise systems at <strong><a href="https://appinventiv.com">Appinventiv</a></strong> (Noida Sector 135) with <strong>3+ years of production delivery</strong>.</p>
+</div>
 
 ---
 
-<h3 align="left">🤖 AI, Machine Learning & Agentic Systems:</h3>
-<p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42"/></a>
-  <a href="https://pytorch.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="pytorch" width="42" height="42"/></a>
-  <a href="https://opencv.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="opencv" width="42" height="42"/></a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="42" height="42"/></a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="42" height="42"/></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="42" height="42"/></a>
-  <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="redis" width="42" height="42"/></a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="42" height="42"/></a>
-</p>
+### 🤖 Core AI Engineering & Generative Systems *(Top Focus)*
 
-<h3 align="left">📱 Mobile, Web & Core Languages:</h3>
-<p align="left">
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="42" height="42"/></a>
-  <a href="https://dart.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="42" height="42"/></a>
-  <a href="https://reactnative.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="42" height="42"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="42" height="42"/></a>
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="42" height="42"/></a>
-  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="42" height="42"/></a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42"/></a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="42" height="42"/></a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="42" height="42"/></a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="42" height="42"/></a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42"/></a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="42" height="42"/></a>
-</p>
+```
+  ┌─────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+  │ Multimodal Data │ ───► │  Hybrid Neural Search   │ ───► │ Cohere Cross-Encoder    │ ───► │ LangGraph Agent Graph   │
+  │ (PDF/Text/OCR)  │      │ Qdrant + pgvector + BM25│      │  (+32% Relevancy Boost) │      │ (Deterministic Cycles)  │
+  └─────────────────┘      └─────────────────────────┘      └─────────────────────────┘      └────────────┬────────────┘
+                                                                                                          │
+                                 ◄ 300ms SLA Low-Latency SSE Token Stream ◄───────────────────────────────┘
+```
+
+- 🤖 **Autonomous Multi-Agent DAGs:** Architecting stateful cyclic execution graphs with **LangGraph**, **CrewAI**, and **Model Context Protocol (MCP)** featuring structured tool execution, automated reflection, and human-in-the-loop review gates.
+- 🧠 **Enterprise Hybrid Neural RAG:** Sub-300ms retrieval combining dense embeddings (**Qdrant, pgvector, FAISS**) with BM25 sparse keyword search, contextual chunking, and **Cohere Cross-Encoder reranking** for citation-grounded outputs.
+- 👁️ **Vision-Language Document Intelligence & OCR:** End-to-end extraction microservices using **LayoutLMv3**, **GPT-4o Vision**, and **PaddleOCR** delivering **96.4% precision** across clinical records, diagnostic charts, and KYC documents.
+- ⚡ **LLM Fine-Tuning & High-Throughput Serving:** Fine-tuning open models (Llama 3, Gemma, Mistral) via **LoRA/QLoRA** for strict JSON schemas; deploying self-hosted **vLLM** endpoints with PagedAttention and Redis semantic caching (**38% cost reduction**).
+- 🛡️ **LLMOps, Evals & Guardrails:** Automated production evaluation pipelines with **LangSmith**, **Arize Phoenix**, NeMo Guardrails, and PII anonymization.
 
 ---
 
-<h3 align="left">📊 GitHub Activity & Streaks:</h3>
+### 🛠️ Comprehensive Tech Stack
 
-<p align="center">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rai-ms&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true" alt="rai-ms" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=rai-ms&show_icons=true&locale=en&theme=tokyonight&hide_border=true" alt="rai-ms" />
-</p>
+<table>
+  <thead>
+    <tr bgcolor="#1E293B">
+      <th align="center" width="28%">Domain</th>
+      <th align="left">Technologies, Frameworks & Tooling</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>🤖 AI, LLMs & Agents<br/><em>(Primary Core)</em></strong></td>
+      <td>
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CrewAI-FF4B4B?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LlamaIndex-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/vLLM_Serving-00A67E?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LoRA%2FQLoRA-8338EC?style=flat-square&logo=pytorch&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Vision_OCR_(LayoutLM)-4361EE?style=flat-square&logo=opencv&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PaddleOCR-0052CC?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-000000?style=flat-square&logo=anthropic&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><strong>🗄️ Vector DBs & Backend</strong></td>
+      <td>
+        <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white"/>
+        <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ChromaDB-FF69B4?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis_Cache-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><strong>📱 Mobile Architecture</strong></td>
+      <td>
+        <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Expo_EAS-000020?style=flat-square&logo=expo&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
+        <img src="https://img.shields.io/badge/BLoC%2FCubit-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Zustand-443e38?style=flat-square&logo=react&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=react-query&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Reanimated_4-7C3AED?style=flat-square&logo=react&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><strong>☁️ LLMOps, Cloud & DevOps</strong></td>
+      <td>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangSmith-000000?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Arize_Phoenix-7928CA?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Azure_AD_SSO-0078D7?style=flat-square&logo=azure-devops&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Dynatrace_APM-1496FF?style=flat-square&logo=dynatrace&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<p align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rai-ms&theme=tokyonight&hide_border=true" alt="rai-ms" />
-</p>
+---
+
+### 🚀 Production Highlights & Flagship Systems
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4>🏥 Enterprise Clinical Document Digitizer & Vision OCR</h4>
+      <ul>
+        <li><strong>Architecture:</strong> Vision-Language pipeline (<em>GPT-4o Vision, LayoutLMv3, PaddleOCR</em>) parsing noisy doctor prescriptions, lab tables, and diagnostic charts.</li>
+        <li><strong>Impact:</strong> Achieved <strong>96.4% field precision</strong> and reduced claim turnaround times by <strong>75%</strong> with automated KYC anti-spoofing fraud defense.</li>
+        <li><strong>Stack:</strong> <code>Python</code>, <code>FastAPI</code>, <code>LayoutLM</code>, <code>PyTorch</code>, <code>PaddleOCR</code>, <code>Docker</code></li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h4>🤖 Autonomous Enterprise Multi-Agent Platform</h4>
+      <ul>
+        <li><strong>Architecture:</strong> Stateful cyclic multi-agent DAGs built with <em>LangGraph</em> and <em>pgvector</em> dense embeddings for candidate evaluation, screening, and anomaly detection.</li>
+        <li><strong>Impact:</strong> Slashed manual recruiter review efforts by <strong>90%</strong> with <strong>98% routing accuracy</strong> and automated task execution.</li>
+        <li><strong>Stack:</strong> <code>LangGraph</code>, <code>LlamaIndex</code>, <code>pgvector</code>, <code>FastAPI</code>, <code>GPT-4o</code>, <code>Celery</code></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>👥 Bloom Multiverse Enterprise Mobile Apps</h4>
+      <ul>
+        <li><strong>Architecture:</strong> Companion employee & partner mobile apps built from scratch on React Native 0.83 + Expo EAS with Atomic Design systems.</li>
+        <li><strong>Capabilities:</strong> Azure AD SSO, MMKV offline persistence, Dynatrace APM, and full i18n localization.</li>
+        <li><strong>Stack:</strong> <code>React Native</code>, <code>Expo</code>, <code>TypeScript</code>, <code>Zustand</code>, <code>React Query</code></li>
+      </ul>
+    </td>
+    <td>
+      <h4>🎬 PVR Cinemas & Virgin Connect Roam (Flutter)</h4>
+      <ul>
+        <li><strong>Scale:</strong> High-concurrency ticket booking and global eSIM platform deployed across <strong>200+ countries</strong>.</li>
+        <li><strong>Performance:</strong> Real-time seat reservation sync, Clean Architecture BLoC, and instant profile activation.</li>
+        <li><strong>Stack:</strong> <code>Flutter</code>, <code>Dart</code>, <code>BLoC</code>, <code>Clean Architecture</code>, <code>WebSockets</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rai-ms&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Ashish's GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rai-ms&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rai-ms&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
 ---
 
 <div align="center">
-  <sub>Crafted with passion by <strong><a href="https://github.com/rai-ms">Ashish Rai</a></strong> | <strong><a href="https://ashish-ai-portfolio.web.app">ashish-ai-portfolio.web.app</a></strong></sub>
+  🌐 <strong>Try the Live Interactive AI Copilot on my Portfolio:</strong><br/>
+  👉 <strong><a href="https://ashish-ai-portfolio.web.app">ashish-ai-portfolio.web.app</a></strong><br/><br/>
+  <sub>Designed & engineered with precision by <strong><a href="https://github.com/rai-ms">Ashish Rai</a></strong></sub>
 </div>
