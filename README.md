@@ -158,12 +158,16 @@
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=rai-ms&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Ashish's GitHub Stats"/>
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=rai-ms&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rai-ms&theme=tokyonight" alt="Ashish's GitHub Profile Details" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rai-ms&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rai-ms&theme=tokyonight" alt="Repos Per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rai-ms&theme=tokyonight" alt="Most Commit Language" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=rai-ms&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
