@@ -1,0 +1,65 @@
+<svg width="410" height="215" viewBox="0 0 410 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1b27; rx: 10px; }
+    .stroke { stroke: #24283b; stroke-width: 1px; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 17px; fill: #bb9af7; }
+    .pct { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #9ece6a; }
+    .domain-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; fill: #c0caf5; }
+    .bar-bg { fill: #24283b; rx: 4px; }
+    .bar-fill { rx: 4px; }
+    .metric-box { fill: #1f2335; rx: 6px; stroke: #292e42; stroke-width: 1px; }
+    .metric-val { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 14px; fill: #7dcfff; }
+    .metric-lbl { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 11px; fill: #a9b1d6; }
+  </style>
+  
+  <rect width="410" height="215" class="bg stroke"/>
+  
+  <!-- Header -->
+  <text x="25" y="32" class="title">🧠 Core Engineering Specialization</text>
+  
+  <!-- Multi-colored top aggregate progress bar -->
+  <g transform="translate(25, 48)">
+    <rect width="360" height="8" class="bar-bg" rx="4"/>
+    <rect x="0" y="0" width="144" height="8" fill="#bb9af7" rx="4"/>
+    <rect x="142" y="0" width="126" height="8" fill="#7dcfff" rx="0"/>
+    <rect x="266" y="0" width="94" height="8" fill="#9ece6a" rx="4"/>
+  </g>
+  
+  <!-- Domain 1: GenAI & Multi-Agents -->
+  <g transform="translate(25, 78)">
+    <circle cx="6" cy="6" r="5" fill="#bb9af7"/>
+    <text x="20" y="10" class="domain-name">GenAI & Multi-Agent DAGs</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="72" height="8" fill="#bb9af7" class="bar-fill"/>
+    <text x="335" y="10" class="pct">40.0%</text>
+  </g>
+  
+  <!-- Domain 2: Cross-Platform Mobile -->
+  <g transform="translate(25, 106)">
+    <circle cx="6" cy="6" r="5" fill="#7dcfff"/>
+    <text x="20" y="10" class="domain-name">Mobile Architecture (RN/Flutter)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="63" height="8" fill="#7dcfff" class="bar-fill"/>
+    <text x="335" y="10" class="pct">35.0%</text>
+  </g>
+  
+  <!-- Domain 3: VectorDBs & Backend -->
+  <g transform="translate(25, 134)">
+    <circle cx="6" cy="6" r="5" fill="#9ece6a"/>
+    <text x="20" y="10" class="domain-name">FastAPI & Vector Databases</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="45" height="8" fill="#9ece6a" class="bar-fill"/>
+    <text x="335" y="10" class="pct">25.0%</text>
+  </g>
+  
+  <!-- Stat pills bottom -->
+  <g transform="translate(25, 158)">
+    <rect x="0" y="0" width="175" height="42" class="metric-box"/>
+    <text x="12" y="19" class="metric-val">96.4% Precision</text>
+    <text x="12" y="33" class="metric-lbl">Vision-Language OCR</text>
+    
+    <rect x="185" y="0" width="175" height="42" class="metric-box"/>
+    <text x="197" y="19" class="metric-val">90% Review Effort ↓</text>
+    <text x="197" y="33" class="metric-lbl">Agentic Automation</text>
+  </g>
+</svg>

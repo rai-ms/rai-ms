@@ -1,0 +1,74 @@
+<svg width="410" height="215" viewBox="0 0 410 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #1a1b27; rx: 10px; }
+    .stroke { stroke: #24283b; stroke-width: 1px; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; font-size: 17px; fill: #7aa2f7; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; fill: #c0caf5; }
+    .pct { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #9ece6a; }
+    .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; fill: #c0caf5; }
+    .bar-bg { fill: #24283b; rx: 4px; }
+    .bar-fill { rx: 4px; }
+    @keyframes grow { from { width: 0; } }
+    .anim { animation: grow 1s ease-out forwards; }
+  </style>
+  
+  <rect width="410" height="215" class="bg stroke"/>
+  
+  <!-- Header -->
+  <text x="25" y="32" class="title">⚡ Top Languages (Code Distribution)</text>
+  
+  <!-- Multi-colored top aggregate progress bar -->
+  <g transform="translate(25, 48)">
+    <rect width="360" height="8" class="bar-bg" rx="4"/>
+    <rect x="0" y="0" width="138" height="8" fill="#38bdf8" rx="4"/>
+    <rect x="135" y="0" width="112" height="8" fill="#00d2b8" rx="0"/>
+    <rect x="244" y="0" width="62" height="8" fill="#7aa2f7" rx="0"/>
+    <rect x="303" y="0" width="32" height="8" fill="#bb9af7" rx="0"/>
+    <rect x="332" y="0" width="28" height="8" fill="#f7768e" rx="4"/>
+  </g>
+  
+  <!-- Language 1: Python -->
+  <g transform="translate(25, 78)">
+    <circle cx="6" cy="6" r="5" fill="#38bdf8"/>
+    <text x="20" y="10" class="lang-name">Python (GenAI, LLMs, PyTorch)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="70" height="8" fill="#38bdf8" class="bar-fill"/>
+    <text x="335" y="10" class="pct">38.4%</text>
+  </g>
+  
+  <!-- Language 2: Dart -->
+  <g transform="translate(25, 106)">
+    <circle cx="6" cy="6" r="5" fill="#00d2b8"/>
+    <text x="20" y="10" class="lang-name">Dart (Flutter Architecture)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="58" height="8" fill="#00d2b8" class="bar-fill"/>
+    <text x="335" y="10" class="pct">31.2%</text>
+  </g>
+  
+  <!-- Language 3: TypeScript -->
+  <g transform="translate(25, 134)">
+    <circle cx="6" cy="6" r="5" fill="#7aa2f7"/>
+    <text x="20" y="10" class="lang-name">TypeScript (React Native / Node)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="34" height="8" fill="#7aa2f7" class="bar-fill"/>
+    <text x="335" y="10" class="pct">17.6%</text>
+  </g>
+  
+  <!-- Language 4: Kotlin -->
+  <g transform="translate(25, 162)">
+    <circle cx="6" cy="6" r="5" fill="#bb9af7"/>
+    <text x="20" y="10" class="lang-name">Kotlin / Java (Android Native)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="16" height="8" fill="#bb9af7" class="bar-fill"/>
+    <text x="335" y="10" class="pct">7.8%</text>
+  </g>
+  
+  <!-- Language 5: C++ -->
+  <g transform="translate(25, 190)">
+    <circle cx="6" cy="6" r="5" fill="#f7768e"/>
+    <text x="20" y="10" class="lang-name">C++ (Performance / Engines)</text>
+    <rect x="235" y="3" width="90" height="8" class="bar-bg"/>
+    <rect x="235" y="3" width="10" height="8" fill="#f7768e" class="bar-fill"/>
+    <text x="335" y="10" class="pct">5.0%</text>
+  </g>
+</svg>

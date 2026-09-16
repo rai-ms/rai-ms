@@ -162,8 +162,8 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rai-ms&theme=tokyonight" alt="Repos Per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rai-ms&theme=tokyonight" alt="Most Commit Language" />
+  <img src="./assets/top-languages.svg" alt="Top Languages - Python & Dart" />
+  <img src="./assets/engineering-focus.svg" alt="Engineering Specialization & AI" />
 </div>
 
 <div align="center">
